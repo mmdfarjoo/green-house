@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'diroz';
+    src: url('/font/Dirooz.eot')format('eot') , 
+    url('./font/Dirooz.ttf') format('ttf') ,
+    url('/font/Dirooz.woff') format('woff'),
+    url('/font/Dirooz.woff2') format('woff2');
+
+}
+
+
+
+
+body{
+    direction: rtl;
+    font-family: 'diroz';
+}
+
+
+
+
+
+*{
+    padding: 0px ;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav-head{
+    display: flex;
+    box-sizing: border-box;
+    justify-content:space-around;
+    padding: 10px;    
+
+    box-shadow:2px 7px 20px rgb(216, 230, 189);;
+}
+
+
+.nav-head div h4{
+    color: black;
+    text-shadow: 2px 0px 10px rgb(7, 224, 7);
+}
+
+
+.nav-head img{
+    width: 10%;
+    height: 10%;
+}
+
+
+.nav-head div a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.nav-head div input{
+    border: none;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px green;
+    height: 30px;
+    width: 30vw;
+    padding: 10px;
+}
+.nav-head div input:focus{
+    border: none;
+    box-shadow: #fff;
+}
+
+
+
+
+
+.nav-head button{
+    border: none;
+    font-size: 20px;
+    border-radius: 100px;
+    padding: 7px;   
+}
+.login a p {
+    background-color: rgb(146, 168, 146);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+    color: white;
+}
+
+
+
+.head-sec ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+
+
+
+}
+.head-sec ul li a {
+    text-decoration: none;
+    color: black;
+    padding-left: 30px;
+    
+}
+
+
+.head-box{
+    
+    display: flex ;
+}
+
+.right {
+    display: flex;
+
+    
+}
+.right img {
+    
+
+    border-radius: 20px;
+    padding: 10px;
+    margin: 2px;
+    width: 50%;
+    height: 34vw ;    
+
+}
+
+
+.left img {
+    padding: 10px;
+    border-radius: 20px;
+    width: 100%;
+    height: 16.8vw;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+.posts {
+
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px green;
+    margin: 20px;
+    
+}
+
+
+.post-con{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(173, 236, 173);
+    border-radius: 20px ;
+      
+}
+
+.post{
+    background-color: #fff;
+    width: 20%;
+    margin: 30px;
+    border-radius: 20px;
+    
+    
+    
+}
+
+.posts p{
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+
+.post img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;    
+}
+
+.post h3{
+    text-align: center;
+    
+}
+.post div p{
+    text-align: center;
+    background-color: green;
+    margin: 10px;
+    border-radius: 10px;
+}
+.post div a{
+    text-decoration: none;
+}
+
+.post div a p{
+    text-decoration: none;
+    color: white;
+}
+
+
+.post div ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+}
+.post div ul li {
+    font-size: 20px;
+}
+
+
+.bg-flower{
+    background-image: url("/pic/download.jpeg");
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 100%;
+}
+
+
+.blog-post{
+    height: 0 auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow:2px 7px 20px rgb(167, 214, 71);
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    justify-content: center;
+}
+
+.title-blog {
+    text-align: center;
+    font-size: 20px;
+
+
+}
+.post-blog-con {
+    border-radius: 20px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(172, 211, 136);
+    margin: 20px;
+
+}
+.post-blog-con img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.title-post{
+    padding: 10px;   
+}
+
+.post-blog-con a{
+        background-color: rgb(48, 216, 48);
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+
+}
